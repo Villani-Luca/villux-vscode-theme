@@ -1,0 +1,21 @@
+{
+  "name": "villux-theme",
+  "displayName": "villux-theme",
+  "description": "Personal theme for vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "villux-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/villux-theme-color-theme.json"
+      }
+    ]
+  }
+}
